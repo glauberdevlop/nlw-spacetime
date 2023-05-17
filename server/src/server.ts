@@ -10,6 +10,7 @@ app.register(cors, {
 
 app.register(memoriesRoutes)
 
+
 app
   .listen({
     port: 3333,
